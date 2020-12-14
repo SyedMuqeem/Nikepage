@@ -43,6 +43,8 @@ const joinusbutton=()=>{
                 <Link to="/register">Register Account</Link>
                 {/* onClick- registration */}
                 
+                     <button onClick={}>Login</button>
+                
             </div>
                 
     </div>
