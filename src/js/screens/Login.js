@@ -1,20 +1,27 @@
-import React from "react"
+import React,{useState} from "react"
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
   } from "react-router-dom";
+import Signup from "./Singup";
 
 const login = () => {
+    
 //    const click = () => {
 //     return 
 //         var login=false;
 //     };
 
+
+
 const joinusbutton=()=>{
     return console.log("white");
+
 }
+const setSignup=false;
+
   return  <div className="form">
             <div className="nikeicon">
                 <img src="nike.png"
@@ -40,10 +47,11 @@ const joinusbutton=()=>{
             <div className="button"><button>SIGN IN</button></div>
             <div className="notamember">
                 Not a Member?
-                <Link to="/register">Register Account</Link>
+                {/* <Link to="/register">Register Account</Link> */}
                 {/* onClick- registration */}
                 
-                     <button onClick={}>Login</button>
+                     <button onClick={() => <Signup />}>Register</button>
+                     
                 
             </div>
                 

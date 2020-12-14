@@ -18,8 +18,15 @@ import {
 
 
 const App = () => {
+  const [login, setLogin] = useState(0);
+    const [signup, setSignup] = useState(false);
+    const [reset, setReset] = useState(false);
  return (
           <Router>
+            <div>
+            <p>You clicked {login} times</p>
+           <button onClick={() => setLogin(login + 1)}>hiii</button>
+            </div>
             
             <div className="main">
                 <div className="header">
