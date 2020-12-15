@@ -8,19 +8,6 @@ import {
 import Signup from "./Singup";
 
 const login = () => {
-    
-//    const click = () => {
-//     return 
-//         var login=false;
-//     };
-
-
-
-const joinusbutton=()=>{
-    return console.log("white");
-
-}
-const setSignup=false;
 
   return  <div className="form">
             <div className="nikeicon">
@@ -47,10 +34,7 @@ const setSignup=false;
             <div className="button"><button>SIGN IN</button></div>
             <div className="notamember">
                 Not a Member?
-                {/* <Link to="/register">Register Account</Link> */}
-                {/* onClick- registration */}
-                
-                     <button onClick={() => <Signup />}>Register</button>
+                <Link to="/register">Register Account</Link>
                      
                 
             </div>
